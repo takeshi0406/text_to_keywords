@@ -10,7 +10,7 @@ http://developer.hatena.ne.jp/ja/documents/keyword/apis/autolink
 ## Description
 
 ```python
-from text_to_keywords.client
+import text_to_keywords
 client = text_to_keywords.client()
 text = 'スピッツが主催する夏季恒例ライブ「ロックのほそ道」と「新木場サンセット」の開催が決定した。'
 res = client.parse_text(text=text, cname=['music'])
